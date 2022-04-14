@@ -12,12 +12,12 @@ using namespace std;
 class Algorithm abstract
 {
 protected:
-	int iter_count, comparison_count; // количество итераций и сравненей
-	long long elapsed; // время затраченное на работу алгоритма
+	int iter_count, comparison_count; // РєРѕР»РёС‡РµСЃС‚РІРѕ РёС‚РµСЂР°С†РёР№ Рё СЃСЂР°РІРЅРµРЅРµР№
+	long long elapsed; // РІСЂРµРјСЏ Р·Р°С‚СЂР°С‡РµРЅРЅРѕРµ РЅР° СЂР°Р±РѕС‚Сѓ Р°Р»РіРѕСЂРёС‚РјР°
 	string name;
 	string delimiter = "----------------------\n";
 
-	virtual string GetName() = 0;// функция, которая позволяет получить имя алгоритма
+	virtual string GetName() = 0;// С„СѓРЅРєС†РёСЏ, РєРѕС‚РѕСЂР°СЏ РїРѕР·РІРѕР»СЏРµС‚ РїРѕР»СѓС‡РёС‚СЊ РёРјСЏ Р°Р»РіРѕСЂРёС‚РјР°
 	virtual int* Alg(int* arr, int n) = 0; // 
 public:
 	int key = 100000;
