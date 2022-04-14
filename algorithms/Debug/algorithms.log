@@ -1,0 +1,5 @@
+﻿  algorithms.cpp
+C:\Users\ilya\Desktop\sort\bin\algorithms\Generators.h(10,24): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\ilya\Desktop\sort\bin\algorithms\algorithms.cpp(15,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\ilya\Desktop\sort\bin\algorithms\algorithms.cpp(48,9): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+  algorithms.vcxproj -> C:\Users\ilya\Desktop\sort\bin\Debug\algorithms.exe
