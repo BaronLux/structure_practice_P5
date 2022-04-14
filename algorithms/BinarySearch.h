@@ -6,8 +6,8 @@ class BinarySearch :
     int finded;
     int find(const int* arr, int key, int count)
     {
-        int l = 0;            // нижняя граница
-        int u = count - 1;    // верхняя граница
+        int l = 0;            // РЅРёР¶РЅСЏСЏ РіСЂР°РЅРёС†Р°
+        int u = count - 1;    // РІРµСЂС…РЅСЏСЏ РіСЂР°РЅРёС†Р°
 
         while (l <= u) {
             int m = (l + u) / 2;
@@ -21,7 +21,7 @@ class BinarySearch :
         return res;
     }
 
-    int* Alg(int* arr, int n) final // функция Al
+    int* Alg(int* arr, int n) final // С„СѓРЅРєС†РёСЏ Al
     {
         finded = find(arr, key, n - 1);
         return arr;
